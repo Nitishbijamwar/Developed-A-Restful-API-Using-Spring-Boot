@@ -1,0 +1,17 @@
+com\training\app\auth\CustomAuthenticationException.class
+com\training\app\auth\RestAuthenticationEntryPoint.class
+com\training\app\DatabaseConfig.class
+com\training\app\auth\CustomPasswordEncoder.class
+com\training\app\Context.class
+com\training\app\SpringBot.class
+com\training\app\auth\CustomAuthenticationProvider.class
+com\training\app\AppConfig.class
+com\training\app\ApplicationContextProvider.class
+com\training\app\auth\AuthenticationRestController.class
+com\training\app\auth\service\AuthenticationService.class
+com\training\app\auth\service\IAuthenticationService.class
+com\training\app\MainHandler.class
+com\training\app\ApiController.class
+com\training\app\User.class
+com\training\app\ApiResponseDto.class
+com\training\group\GroupRestController.class
