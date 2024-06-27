@@ -1,4 +1,4 @@
-# TRAINING
+
 
 ## JAVA Version 
 
@@ -18,24 +18,22 @@ mvn clean install
 
 # Objective
 
-The goal of this assessment is to learn how to develop a RESTful API with Spring Boot, using a microservices architecture. 
+The goal of this project is to learn how to develop a RESTful API with Spring Boot, using a microservices architecture. 
 
-You will need to create multiple endpoints for a specific element, implement CRUD (Create, Read, Update, Delete) methods, and return DTOs (Data Transfer Objects). 
+I created multiple endpoints for a specific element, implement CRUD (Create, Read, Update, Delete) methods, and return DTOs (Data Transfer Objects). 
 
-The database will be in-memory for the purposes of this exercise.
+The database will be in-memory for the purposes of this project.
 
-Each web service must include JUnit tests.
+Each web service  include JUnit testing.
 
 # Architecture 
 
-You will need to follow a microservices architecture with a clear separation of responsibilities:
 
 - RestController -> Service -> DAO
 - RestController: Uses the Service to handle HTTP requests and returns responses to the client
 - Service: Uses the DAO to retrieve data, applies business logic, and formats the data into DTOs.
 - DAO (Data Access Object): Retrieves data from the database or memory application
 
-**Initially, the list of created users will be a list from the UserDao class**
 
 # Users
 
